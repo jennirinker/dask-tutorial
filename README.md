@@ -56,12 +56,13 @@ You can build a docker image out of the provided Dockerfile.
 
 
 
-#### Graphviz on Windows
+## Windows users
 
-You may need to do install the dependencies like this:
+You will need to configure graphviz manually in order to visualize task graphs:  
 
-    conda install -c conda-forge graphviz
-    conda install -c conda-forge python-graphviz
+  1. Install graphviz using the MSI installer [here](https://graphviz.gitlab.io/_pages/Download/Download_windows.html)  
+  2. Add the graphviz bin path (e.g., 'C:\Program Files (x86)\Graphviz2.38\bin') to the system path  
+  3. Restart any running kernels
 
 
 
